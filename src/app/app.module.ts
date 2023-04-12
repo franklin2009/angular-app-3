@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,10 +13,14 @@ import { SecondLayoutComponent } from './layout/second-layout/second-layout.comp
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { TermComponent } from './components/term/term.component';
+import { BannerComponent } from './components/banner/banner.component';
+import { SliderComponent } from './components/slider/slider.component';
+import { NewletterComponent } from './components/newletter/newletter.component';
 
 import { BaseComponent } from './pages/base/base.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { AgeGateComponent } from './pages/age-gate/age-gate.component';
 import { TermComponent as TermPage } from './pages/term/term.component';
 
 
@@ -30,10 +36,15 @@ import { TermComponent as TermPage } from './pages/term/term.component';
     HomeComponent,
     NotFoundComponent,
     TermComponent,
-    TermPage
+    TermPage,
+    BannerComponent,
+    SliderComponent,
+    NewletterComponent,
+    AgeGateComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule
   ],
   providers: [],
