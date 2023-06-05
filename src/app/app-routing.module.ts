@@ -10,6 +10,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { TermComponent as PageTerms } from './pages/term/term.component';
 import { AgeGateComponent } from './pages/age-gate/age-gate.component';
+import { ContactComponent } from './pages/contact/contact.component'
 
 const routes: Routes = [
   {
@@ -49,6 +50,10 @@ const routes: Routes = [
       {
         path: 'terms',
         component: PageTerms
+      },
+      {
+        path: 'contacto',
+        component: ContactComponent
       },
       {
         path: '**',

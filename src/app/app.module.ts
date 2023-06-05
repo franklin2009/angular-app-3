@@ -22,6 +22,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { AgeGateComponent } from './pages/age-gate/age-gate.component';
 import { TermComponent as TermPage } from './pages/term/term.component';
+import { VideoComponent } from './components/video/video.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 
 @NgModule({
@@ -40,7 +42,9 @@ import { TermComponent as TermPage } from './pages/term/term.component';
     BannerComponent,
     SliderComponent,
     NewletterComponent,
-    AgeGateComponent
+    AgeGateComponent,
+    VideoComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainLayoutComponent implements OnInit {
 
+  isShowFooter:boolean=true;
+
   constructor() { }
 
   ngOnInit(): void {
